@@ -280,7 +280,7 @@ public class OriginalSnake {
 	}
 
 	public static void main(String[]args) throws InterruptedException {
-		int totalPoints;
+		int totalPoints = 0;
 		int speed = 35;
 		LinkedList<OriginalSnake> snakes = new LinkedList<OriginalSnake>();
 		snakes.add(new OriginalSnake(Color.BLACK));

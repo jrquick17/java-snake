@@ -193,25 +193,5 @@ public class Game {
 				cells[apples[i].position].repaint();
 			}
 	}
-
-	public static void main(String[] args) throws InterruptedException {
-		int speed = 35;
-
-		//CREATES SNAKES BASED ON NUMBER OF PLAYERS
-		init(75);
-		addSnakes();
-		addApples();
-		addMice();
-		addBonuses();
-
-		while (true) {
-			moveSnakes();
-			replaceApples();
-			moveMice();
-			replaceMice();
-
-			Thread.sleep(speed);
-		}
-	}
 }
 
