@@ -10,7 +10,7 @@
 
 ## About ## 
 
-The game is a basic version of snake where you collect sitting apples, running mice for points, and bonuses.
+A game written in vanilla Java where you control an ever-growing snake trying to collect as many sitting apples, running mice and bonuses for points.
 
 * An updated version of this written in Angular and Ionic can be [found here](https://github.com/jrquick17/ionic-snake).
 * Visit [my website](https://jrquick.com) for me cool stuff!
